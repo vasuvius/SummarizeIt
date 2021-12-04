@@ -14,7 +14,7 @@ const messagesFromReactAppListener = (
     sender: chrome.runtime.MessageSender,
     response: MessageResponse
 ) => {
-
+    
     const isValidated = validateSender(message, sender);
 
     if (isValidated && message.message === 'Hello from React') {
@@ -24,6 +24,9 @@ const messagesFromReactAppListener = (
     if (isValidated && message.message === "delete logo") {
         const logo = document.getElementById('hplogo');
         logo?.parentElement?.removeChild(logo)
+    }
+    if (isValidated && message.message === "Summarize Data"){
+        response(window.getSelection()?.toString());
     }
 }
 
