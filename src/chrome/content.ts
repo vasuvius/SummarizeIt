@@ -16,22 +16,13 @@ const messagesFromReactAppListener = (
 ) => {
     
     const isValidated = validateSender(message, sender);
-
-    if (isValidated && message.message === 'Hello from React') {
-        response('Hello from content.js');
-    }
-
-    if (isValidated && message.message === "delete logo") {
-        const logo = document.getElementById('hplogo');
-        logo?.parentElement?.removeChild(logo)
-    }
+    
     if (isValidated && message.message === "Summarize Data"){
         response(window.getSelection()?.toString());
     }
 }
 
 const main = () => {
-    console.log('[content.ts] Main')
     /**
      * Fired when a message is sent from either an extension process or a content script.
      */
