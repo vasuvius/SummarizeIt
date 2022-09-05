@@ -19,7 +19,7 @@ $ yarn run build
 Select `/build` folder
 
 Creds to Nemrosim for the Chrome React Framework:
-[Chrome React Frameowkr](https://github.com/nemrosim/chrome-react-extension-example)
+[Chrome React Framework](https://github.com/nemrosim/chrome-react-extension-example)
 
 
 
