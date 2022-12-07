@@ -4,11 +4,14 @@ SummarizeIt is a google chrome extension that summarizes any text. Highlight any
 
 ## 2. How I built it:
 
-I built using React. The summaries are generated using OpenAi's GPT-3 Davinci model. The powerful AI generates text based on an input. SummarizeIt uses TL:DR; (Too Long: Didn't Read) which is a capability of GPT-3. TL:DR; generates sumarries of input text which I then display in the SummarizeIt chrome extension.
+Built using React. The summaries are generated using OpenAi's GPT-3 Davinci model. The powerful AI generates text based on an input. SummarizeIt uses TL:DR; (Too Long: Didn't Read) which is a capability of GPT-3. TL:DR; generates sumarries of input text which I then display in the SummarizeIt chrome extension.
 
 ## 2. How to build this extension:
 
 ```
+$ yarn
+$ touch .env
+$ echo "REACT_APP_OPENAI_API_KEY=$your_openAI_secret_key" > .env
 $ yarn run build
 ```
 
