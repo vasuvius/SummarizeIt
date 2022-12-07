@@ -1,8 +1,8 @@
 ## 1. What it is:
 
 SummarizeIt is a google chrome extension that summarizes any text. Highlight any text, fire up the SummarizeIt extension and it will summarize the text in under a second. 
-![](./assets/readme/ex1.jpg)
-![](./assets/readme/ex2.jpg)
+![](./assets/readme/ex1.png)
+![](./assets/readme/ex2.png)
 ## 2. How I built it:
 
 Built using React. The summaries are generated using OpenAi's GPT-3 Davinci model. The powerful AI generates text based on an input. SummarizeIt uses TL:DR; (Too Long: Didn't Read) which is a capability of GPT-3. TL:DR; generates sumarries of input text which I then display in the SummarizeIt chrome extension.
