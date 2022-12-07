@@ -1,5 +1,5 @@
 ## 1. Why/What:
-I hate lengthy, dense readings. Sometimes I just wish I had a summarization bot that could give me a sense of what the text is saying without having to dive into a lengthy passage. This brought me to OpenAI. They've created a powerful NLP model, GPT-3. Among many of its functionalities is a TL;DR (Too Long, Didn't Read) bot.
+I hate lengthy, dense readings. Sometimes I just wish I had a summarization bot that could give me a sense of what the text is saying without having to dive into a lengthy passage. This brought me to OpenAI. They've created a powerful NLP model, GPT-3. Among many of its functionalities is a TL;DR (Too Long, Didn't Read) bot. I wanted to be able to use it on any website, so I built my own chrome extension.
 
 SummarizeIt is a google chrome extension that summarizes any text. Highlight any text, fire up the SummarizeIt extension and it will summarize the text in under a second. 
 ![](./assets/readme/ex1.png)
