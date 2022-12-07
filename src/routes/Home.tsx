@@ -58,7 +58,6 @@ export const Home = () => {
                     }}>About page
                     </button>
                 </div>
-                <p> Built by Jack Vasu</p>
             </header>
         </div>
     )
